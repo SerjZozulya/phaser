@@ -1,0 +1,29 @@
+@font-face {
+
+	font-family: 'MyWebFont';
+
+	src: url('../fonts/Pixeboy.ttf');
+
+	font-weight: normal;
+
+	font-style: normal;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+body {
+	width: 800px;
+	margin: 0 auto;
+	background-color: grey;
+}
+
+h1 {
+	text-align: center;
+	font-family: 'MyWebFont';
+	font-size: 10vh;
+	color: white;
+}

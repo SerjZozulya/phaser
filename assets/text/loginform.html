@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<style>
+
+@font-face {
+
+	font-family: 'MyWebFont';
+	src: url('../../fonts/Pixeboy.ttf');
+	font-weight: normal;
+	font-style: normal;
+}
+		
+.login {
+  background: #eceeee;
+  border: 1px solid #42464b;
+  border-radius: 6px;
+  height: 180px;
+  width: 298px;
+}
+
+input[type="password"], input[type="text"] {
+  border: 1px solid #a1a3a3;
+  border-radius: 4px;
+  box-shadow: 0 1px #fff;
+  box-sizing: border-box;
+  height: 39px;
+  margin: 31px 0 0 29px;
+  text-align: center;
+  transition: box-shadow 0.3s;
+  width: 240px;
+  font-family: 'MyWebFont';
+  font-size: 32px;
+}
+
+.forgot:hover { color: #3b3b3b }
+input[type="submit"] {
+  width:240px;
+  height:35px;
+  display:block;
+  font-family: 'MyWebFont';
+  font-size:32px;
+  font-weight:bold;
+  color:#fff;
+  text-decoration:none;
+  text-transform:uppercase;
+  text-align:center;
+  text-shadow:1px 1px 0px #37a69b;
+  margin: 29px 0 0 29px;
+  position:relative;
+  cursor:pointer;
+  border: none;  
+  background-color: #37a69b;
+  background-image: linear-gradient(top,#3db0a6,#3111);
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius:5px;
+  box-shadow: inset 0px 1px 0px #2ab7ec, 0px 5px 0px 0px #497a78, 0px 10px 5px #999;
+}
+
+input[type="submit"]:active {
+  top:3px;
+  box-shadow: inset 0px 1px 0px #2ab7ec, 0px 2px 0px 0px #31524d, 0px 5px 3px #999;
+}    
+
+	</style>
+	<div class="login">
+		<input type="text" name="username" placeholder="Username" id="username">
+		<input type="submit" name="loginButton" value="Play">
+	</div>
+</body>
+</html>
